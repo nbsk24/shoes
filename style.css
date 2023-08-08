@@ -1,0 +1,37 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+ol {
+  margin: 0;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.text {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.img {
+  margin-bottom: 30px;
+}
+
+.list {
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  font-size: 30px;
+}

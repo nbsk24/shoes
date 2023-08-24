@@ -15,15 +15,23 @@ ol {
 }
 
 .title {
-  margin-bottom: 100px;
+  padding: 100px 0 58px;
   font-size: 40px;
 }
 
 .text {
-  margin-bottom: 33px;
+  padding-bottom: 33px;
   font-size: 22px;
   line-height: 33px;
   color: #2d2d2d;
+}
+
+.main-text {
+    padding-bottom: 52px;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2d2d2d;
+  
 }
 
 .text:last-child {
@@ -31,19 +39,19 @@ ol {
 }
 
 .img {
-  margin-bottom: 30px;
+  padding-bottom: 48px;
 }
 
 
 
 .navigation {
-  margin-bottom: 50px;
+  padding-bottom: 49px;
   font-size: 16px;
   line-height: 24px;
 }
 
 .subtitle {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   font-size: 22px;
   font-weight: bold;
   line-height: 33px;
@@ -61,10 +69,13 @@ ol {
 }
 
 .section {
-  margin-bottom: 33px;
+  padding-bottom: 33px;
 }
 
 .section:last-child {
   margin: 0;
+  padding: 0;
 }
-
+.content {
+  padding-bottom: 62px;
+}

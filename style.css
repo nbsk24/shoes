@@ -3,6 +3,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: #525252;
+}
 h1,
 h2,
 h3,
@@ -31,16 +34,12 @@ ol {
   margin-bottom: 30px;
 }
 
-.image {
-  margin: 27px 0 30px;
-}
 
-.list {
+
+.navigation {
   margin-bottom: 50px;
   font-size: 16px;
   line-height: 24px;
-  padding-top: 17px;
-  color: #525252;
 }
 
 .subtitle {
@@ -51,13 +50,14 @@ ol {
 }
 
 .container {
-  width: 1830px;
+  max-width: 1830px;
   padding: 0 30px;
+  margin:0 auto;
 }
 
 .main-container {
-  width: 1155px;
-  padding: 0 30px;
+  max-width: 1155px;
+ 
 }
 
 .section {
@@ -67,3 +67,4 @@ ol {
 .section:last-child {
   margin: 0;
 }
+

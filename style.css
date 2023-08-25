@@ -65,7 +65,12 @@ font-family: "Arial";
 .section {
   margin-bottom: 33px;
 }
-
+.block {
+  margin-bottom: 33px;
+}
+.block:last-child {
+  margin: 0;
+}
 .section:last-child {
   margin: 0;
 }

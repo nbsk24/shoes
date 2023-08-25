@@ -22,17 +22,18 @@ color: #2d2d2d;
 font-family: "Arial";
 }
 .main-text {
-  padding-bottom: 33px;
-  font-size: 22px;
+font-size: 22px;
 line-height: 33px;
 color: #2d2d2d;
 font-family: "Arial";
+margin: 0 0 33px;
 }
 .main-text:last-child {
   margin: 0;
 }
 
 .img {
+  padding-top: 27px;
   margin-bottom: 48px;
 }
 
@@ -42,7 +43,7 @@ font-family: "Arial";
 }
 
 .navigation {
-  margin-bottom: 49px;
+  padding: 17px 0 23px;
   font-size: 16px;
   line-height: 24px;
 }
@@ -55,14 +56,15 @@ font-family: "Arial";
 
 .container {
   max-width: 1830px;
-  margin: 0 30px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .main-container {
   max-width: 1155px;
 }
 
-.section {
+.main-section {
   margin-bottom: 33px;
 }
 .block {
@@ -70,6 +72,13 @@ font-family: "Arial";
 }
 .block:last-child {
   margin: 0;
+}
+.main-section:last-child {
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 33px;
 }
 .section:last-child {
   margin: 0;
